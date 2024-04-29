@@ -21,4 +21,9 @@ describe "Find the sum of all multiples of n below m (n,m are positive integers)
         m = 'b'
         expect(SumOfMultiple(n,m)).to eq("Invalid Input")
     end
+    it "Find the sum of 9 to 3. It should equal to '0'" do
+        n = 9
+        m = 3
+        expect(SumOfMultiple(n,m)).to eq(0)
+    end
 end
